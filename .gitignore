@@ -1,0 +1,7 @@
+.idea/
+apache/logs/access.log
+apache/logs/error.log
+app/system/storage/cache/
+app/system/storage/logs/
+apache/
+/app/image/cache/
