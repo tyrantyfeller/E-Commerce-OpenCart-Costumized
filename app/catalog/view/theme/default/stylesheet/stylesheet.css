@@ -64,6 +64,15 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 .nav-tabs {
 	margin-bottom: 15px;
 }
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
 div.required .control-label:before {
 	content: '* ';
 	color: #F00;
@@ -196,10 +205,7 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
 	min-height: 40px;
 }
 #menu .nav > li > a {
