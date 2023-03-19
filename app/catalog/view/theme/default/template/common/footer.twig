@@ -1,10 +1,10 @@
 <div class="container-fluid special">
-  <div class="row" style="margin-top: 30px; margin-bottom: 30px;">
+  <div class="row" style="font-family: Qardoos Personal Use, serif; margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-4">
-      <img alt="Draculartes" style="padding: 0 0 0 60%;" src="/image/catalog/magical.png">
+      <img alt="Draculartes" style="padding: 0 0 0 80%;" src="/image/catalog/magical.png">
     </div>
     <div class="col-md-4">
-      <p style="font-size: 25px; padding: 30px 0 0 0; font-family: Qardoos Personal Use, sans-serif">Novidades, e Cupons de desconto?
+      <p style="font-size: 25px; padding: 57px 0 46px 50px; font-family: Qardoos Personal Use, serif">Novidades, e Cupons de desconto?
         Receba agora por email!</p>
     </div>
     <div class="col-md-4">
@@ -16,16 +16,16 @@
 <footer>
   <div class="container">
     <div class="row">
-      {% if informations %}
-      <div class="col-sm-3">
-        <h5>{{ text_information }}</h5>
-        <ul class="list-unstyled">
-         {% for information in informations %}
-          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
+{#      {% if informations %}#}
+{#      <div class="col-sm-3">#}
+{#        <h5>{{ text_information }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#         {% for information in informations %}#}
+{#          <li><a href="{{ information.href }}">{{ information.title }}</a></li>#}
+{#          {% endfor %}#}
+{#        </ul>#}
+{#      </div>#}
+{#      {% endif %}#}
 {#      <div class="col-sm-3">#}
 {#        <h5>{{ text_service }}</h5>#}
 {#        <ul class="list-unstyled">#}
@@ -34,23 +34,42 @@
 {#          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>#}
 {#        </ul>#}
 {#      </div>#}
-      <div class="col-sm-3">
-        <h5>{{ text_extra }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
-          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
-          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
-          <li><a href="{{ special }}">{{ text_special }}</a></li>
-        </ul>
+{#      <div class="col-sm-5">#}
+{#        <h5>{{ text_extra }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>#}
+{#          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>#}
+{#          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>#}
+{#          <li><a href="{{ special }}">{{ text_special }}</a></li>#}
+{#        </ul>#}
+{#      </div>#}
+{#      <div class="col-sm-3">#}
+{#        <h5>{{ text_account }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#          <li><a href="{{ account }}">{{ text_account }}</a></li>#}
+{#          <li><a href="{{ order }}">{{ text_order }}</a></li>#}
+{#          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>#}
+{#          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>#}
+{#        </ul>#}
+{#      </div>#}
+      <div class="col-md-4">
+        <img alt="Draculartes" class="img-footer" src="/image/catalog/Draculartes_PNG_b.png">
+        <p>Atuando desde 2021 no mercado de impressão 3D,
+          a Draculartes está voltada para imagens
+          místicas, terror, miniaturas, entre outros produtos inovadores
+          e de alto padrão de qualidade, graças as novas tecnologias de
+          impressão FDM e de Resina que possibilitam inúmeras possibilidades,
+          trazendo maior nível de detalhamento, e peças mais leves,
+          com foco em produtos sustentáveis, utilizando materiais que
+          beneficiam o meio ambiente.</p>
       </div>
-      <div class="col-sm-3">
-        <h5>{{ text_account }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ account }}">{{ text_account }}</a></li>
-          <li><a href="{{ order }}">{{ text_order }}</a></li>
-          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
-          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
-        </ul>
+      <div class="col-md-4">
+        <h3 class="text-title-footer">Redes Sociais</h3>
+        <img alt="Draculartes" class="img-footer-social" src="/image/catalog/inst_color.png">
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-title-footer">Contato</h3>
+        <p class="text-content-footer">lojadraculartes@outlook.com</p>
       </div>
     </div>
     <hr>
